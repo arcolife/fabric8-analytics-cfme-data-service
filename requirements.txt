@@ -16,3 +16,4 @@ tensorflow
 tflearn
 scipy
 keras
+h5py==2.7.0

@@ -1,0 +1,6 @@
+models/checkpoint
+models/memoryThreshold_decisiontree.pkl
+models/model_mem_threshold.tflearn.data-00000-of-00001
+models/model_mem_threshold.tflearn.index
+models/model_mem_threshold.tflearn.meta
+models/numWorkers_decisiontree.pkl

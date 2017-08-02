@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 import tensorflow as tf
@@ -12,9 +13,10 @@ from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
-
-
 import generate_data
+
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+
 
 def train_model_tensorflow():
     """
